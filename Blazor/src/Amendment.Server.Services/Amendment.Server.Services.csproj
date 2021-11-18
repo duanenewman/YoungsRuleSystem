@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net60</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amendment.Server.Model\Amendment.Server.Model.csproj" />
+    <ProjectReference Include="..\Amendment.Server.Repository\Amendment.Server.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
